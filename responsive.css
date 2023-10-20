@@ -1,0 +1,413 @@
+@media  screen and (max-width:1280px) {
+    
+    #second,#third,#sixth,footer{
+        padding: 4rem 2.5rem;
+    }
+    .questions > .question{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:965px){
+    header > nav{
+        padding: 1.5rem 2.5rem 2rem 2.5rem;
+    }
+    .content > h1{
+        font-size: 2.8rem;
+       
+    }
+    .content > h2{
+        font-size: 1.4rem;
+    }
+    .content > h3{
+        font-size: 1.2rem;
+    }
+     .comp-img > img{
+         width: 440px;
+     }
+     
+     .comp-video{
+         top: 69px;
+         left: 58px;
+     }
+     
+     .comp-video > video{
+         width: 320px;
+     }
+
+     .second-section-text > h1{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .second-section-text > h2{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    /* third section */
+    #third{
+        gap: 2rem;
+    }
+    .third-section-text > h1{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    
+    .third-section-text > h2{
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+    
+    .mob-img > img{
+        width: 450px;
+    }
+
+    .third-img > img{
+        width: 60px;
+    }
+    .download-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .third-img{
+        top: 193px;
+        left: 30px;
+    }
+
+    .third-img > img{
+        width: 50px;
+    }
+
+    /* fourth */
+    .cmp-img > img{
+        width: 460px;
+    }
+    .fourth-video{
+        top: 28px;
+        left: 85px;
+        }
+        .fourth-video > video{
+            width: 284px;
+        }
+
+    .mob-img > img{
+        width: 382px;
+    }
+}
+
+
+@media screen and (max-width:920px){
+    .content > h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .content > h2{
+        font-size: 1.1rem;
+    }
+
+    .content > h3{
+        font-size: 1.1rem;
+    }
+    header > nav > .logo > svg{
+        width: 100px;
+    }
+    nav > .buttons{
+        gap: 0.6rem;
+    }
+    nav > .buttons > button{
+        font-size: 0.8rem;
+    }
+    nav > .buttons{
+        font-size: 0.95rem;
+    }
+    #second,#third,#sixth{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-section-text > h1{
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .second-section-text > h2{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #second{
+        gap: 1rem;
+    }
+    .comp-img > img{
+        width: 610px;
+    }
+    .comp-video{
+        top: 95px;
+        left: 80px;
+    }
+    
+    .comp-video > video{
+        width: 445px;
+    }
+
+    #third{
+        flex-direction: column-reverse;
+        gap: 0.8rem;
+    }
+
+    .third-section-text > h1{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .third-section-text > h2{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .mob-img > img{
+        width: 630px;
+    }
+
+    .third-img > img{
+        width: 50px;
+    }
+
+    .third-img{
+        top: 318px;
+        left: 123px;
+    }
+    #download{
+        margin-left: 6rem;
+    }
+
+    .cmp-img > img{
+        width: 660px;
+    }
+    
+    .fourth-video{
+        top: 41px;
+        left: 117px;
+    }
+    .fourth-video > video{
+        width: 425px;
+    }
+
+    #sixth > .title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .questions > .question{
+        font-size: 0.8rem;
+        padding: 1rem 2rem;
+    }
+    .text{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .login > input{
+        width: 20rem;
+        font-size: 0.9rem;
+    }
+
+    .login > button{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .all-links{
+        gap: 8rem;
+    }
+}
+
+@media screen and (max-width:640px){
+    header > .content{
+        padding: 8.5rem 2rem;
+    }
+    .content > h1{
+        text-align:center;
+       
+    }
+    .content > h2{
+        text-align:center;
+    }
+    .content > h3{
+        text-align:center;
+    }
+    .login > input{
+        width: 16rem;
+    }
+    #lang > span{
+        display: none;
+    }
+    .comp-img > img{
+        width: 500px;
+    }
+    .comp-video{
+        top: 78px;
+        left: 65px;
+    }
+    .comp-video > video{
+        width: 365px;
+    }
+
+    /* 33 95 535 */
+    .cmp-img > img{
+        width: 550px;
+    }
+    
+    .fourth-video{
+        top: 33px;
+        left: 100px;
+    }
+    .fourth-video > video{
+        width: 345px;
+    }
+
+    .all-links{
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width:556px){
+    .login{
+        flex-direction: column;
+        width: 100%;
+        gap: 1.2rem;
+    }
+    .login > input{
+        width: 98%;
+    }
+    .login > button{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    #mob2-img > img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:520px){
+    .comp-img > img{
+        width: 425px;
+    }
+    .comp-video{
+        top: 65px;
+        left: 52px;
+    }
+    .comp-video > video{
+        width: 315px;
+    }
+
+    .mob-img > img{
+        width: 545px;
+    }
+    .third-img{
+        top: 279px;
+        left: 85px;
+    }
+
+    .cmp-img > img{
+        width: 460px;
+    }
+    
+    .fourth-video{
+        top: 29px;
+        left: 87px;
+    }
+    .fourth-video > video{
+        width: 290px;
+    }
+    footer > .all-links{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:440px){
+    header > .content{
+        padding: 4rem 2rem;
+    }
+    .comp-img > img{
+        width: 370px;
+    }
+    .comp-video{
+        top: 55px;
+        left: 48px;
+    }
+    .comp-video > video{
+        width: 277px;
+    }
+    .mob-img > img{
+        width: 466px;
+    }
+    .third-img{
+        top: 233px;
+        left: 58px;
+    }
+    #download{
+        margin-left: 5rem;
+    }
+    .cmp-img > img{
+        width: 400px;
+    }
+    
+    .fourth-video{
+        top: 20px;
+        left: 70px;
+    }
+    .fourth-video > video{
+        width: 258px;
+    }
+    .questions > .question{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    .comp-img > img{
+        width: 320px;
+    }
+    .comp-video{
+        top: 46px;
+        left: 43px;
+    }
+    .comp-video > video{
+        width: 241px;
+    }
+    .mob-img > img{
+        width: 390px;
+    }
+    .third-img{
+        top: 197px;
+        left: 36px;
+        font-size: 0.9rem;
+    }
+    #download{
+        margin-left: 2rem;
+    }
+    .cmp-img > img{
+        width: 400px;
+    }
+    
+    .fourth-video{
+        top: 20px;
+        left: 70px;
+    }
+    .fourth-video > video{
+        width: 258px;
+    }
+    #down-text{
+        font-size: 0.8rem;
+        
+    }
+    #second,#third,#sixth,footer{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+/* 197 36 390 2rem */
